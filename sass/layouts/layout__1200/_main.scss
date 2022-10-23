@@ -1,0 +1,29 @@
+main {
+    padding-top: 0;
+}
+.section {
+    margin-bottom: 70px;
+}
+h2.title {
+    font-size: rem(30px);
+    letter-spacing: 0.05rem;
+    margin-bottom: 40px;
+}
+h3.section__title {
+    font-size: rem(26px);
+    letter-spacing: 0.1rem;
+    margin-bottom: 40px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.section__image img{
+    margin-bottom: 20px;
+}
+.text {
+    @include p-text;
+}
+.text:not(:last-child) {
+    margin-bottom: 20px;
+}

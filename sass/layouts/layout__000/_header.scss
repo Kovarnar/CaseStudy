@@ -1,0 +1,12 @@
+.header{
+    background-color: $whiteColor;
+    .container {
+        padding: 24.5px 15px;
+    }
+    span {
+        font-size: rem(16px);
+        letter-spacing: 0.5rem;
+        color: $blackColor;
+        font-family: $latoFont;
+    }
+}
