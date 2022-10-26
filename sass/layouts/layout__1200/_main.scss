@@ -1,0 +1,14 @@
+main {
+    padding-top: 0;
+}
+.section {
+    margin-bottom: 90px;
+    &:nth-child(2) {
+        width: 570px;
+    }
+}
+h2.title {
+    font-size: rem(48px);
+    letter-spacing: 0.05rem;
+    margin-bottom: 70px;
+}

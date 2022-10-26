@@ -1,0 +1,18 @@
+@function rem($target) {
+    @return ($target/$baseFontSize) * 1rem;
+}
+
+@mixin title-text {
+    color: $blackColor;
+    font-weight: 600;
+    font-family: $redHatDisplayFont;
+    line-height: 1.66;
+}
+
+@mixin p-text {
+    color: $textColor;
+    font-weight: 400;
+    font-family: $latoFont;
+    letter-spacing: 0.05rem;
+    line-height: 2;
+}
