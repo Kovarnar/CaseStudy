@@ -293,34 +293,15 @@ h3.section__title {
     padding-top: 0;
   }
   .section {
-    margin-bottom: 70px;
+    margin-bottom: 90px;
+  }
+  .section:nth-child(2) {
+    width: 570px;
   }
   h2.title {
-    font-size: 1.875rem;
+    font-size: 3rem;
     letter-spacing: 0.05rem;
-    margin-bottom: 40px;
-  }
-  h3.section__title {
-    font-size: 1.625rem;
-    letter-spacing: 0.1rem;
-    margin-bottom: 40px;
-  }
-  .image img {
-    width: 100%;
-    height: 100%;
-  }
-  .section__image img {
-    margin-bottom: 20px;
-  }
-  .text {
-    color: #565656;
-    font-weight: 400;
-    font-family: "Lato", sans-serif;
-    letter-spacing: 0.05rem;
-    line-height: 2;
-  }
-  .text:not(:last-child) {
-    margin-bottom: 20px;
+    margin-bottom: 70px;
   }
   .footer {
     padding: 70px 15px;
